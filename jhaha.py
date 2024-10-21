@@ -1,4 +1,0 @@
-tere
-priny(''
-      ''
-      'teine brnach')
