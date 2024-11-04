@@ -1,1 +1,1 @@
-//alert("Tere, kasutaja!")
+alert("prod")
