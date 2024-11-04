@@ -1,1 +1,1 @@
-Seda haru haldab Hendrik.
+Siin asub Ihaste seltsi veebileht.
