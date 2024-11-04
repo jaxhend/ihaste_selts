@@ -38,12 +38,14 @@ html, body {
     width: 100%;
     height: 75%;
     background-color: rgb(172, 186, 109);
+    display: flex;              
+    justify-content: center;    
     align-items: center;
 
 }
 
 .fb-page{
-    height: 600px;
+    height: 680px;
     width: 500px;
 }
 
