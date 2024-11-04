@@ -1,1 +1,1 @@
-Siin asub Ihaste seltsi veebileht.
+Siin asub Ihaste seltsi veebileht. Loe lisaks Wikist
