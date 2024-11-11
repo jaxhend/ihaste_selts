@@ -1,4 +1,26 @@
-.fb-page{
-    height: 600px;
-    width: 500px;
+
+footer{
+    display: flex;
+    justify-content: center; 
+    gap: 300px; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.facebook{
+    margin-bottom: 7px;
+}
+
+.mingi_tekst{
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.mySlides{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

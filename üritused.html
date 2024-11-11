@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="üritused.css">
     <title>Ihaste selts</title>
 
 <body>
     <header>
         <img src="https://raw.githubusercontent.com/jaxhend/ihaste_selts/refs/heads/main/logo.png" alt="Logo" class="logo">
         <div class="pealkiri">
-            <h1>IHASTE SELTS</h1>
+            <h1>IHASTE SELTSI ÜRITUSED</h1>
         </div>
         <div class="menüü">
             <a href="index.html" target="_self">Avaleht</a>
@@ -21,24 +21,51 @@
 
 
     <div class="keskmine">
-        <div class="fb-page" 
-            data-href="https://www.facebook.com/ihasteselts?locale=et_EE" 
-            data-tabs="timeline" 
-            data-width="500" 
-            data-height="683" 
-            data-small-header="false" 
-            data-adapt-container-width="true" 
-            data-hide-cover="false" 
-            data-show-facepile="true">
+        <div class="mingi_tekst">
+            Tulevased sündmused:
+            <ul>
+                <li>Sportliku vanaisa Jaanuse sangpommiheide</li>
+                <li>Sügise pildivõistlus</li>
+                <li>Ihaste suvepäevad</li>
+            </ul>
         </div>
-    
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0"></script>
-        
+        <div>
+            <img class="mySlides" src="https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/464150628_983084127193526_3563111770376545082_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jDz7kDswOL0Q7kNvgE1eMzo&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=AWQtcVYrQV0qwgPDXKkVFPY&oh=00_AYDiasylvuWuwxYMcK0FoHqr1S5Wt2S0sc9MsPTs31ZRkg&oe=673839FB">
+            <img class="mySlides" src="https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/464327160_983084070526865_1417485714190260964_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=E_3ITmKK3yYQ7kNvgH2hFkJ&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=Arri4kfxQuYgj9pxp3GRIXw&oh=00_AYCycLuMB3MRtWolagTrKelL7-cWHPdZYwQ54a0zGxtnmw&oe=673817EF">
+            <img class="mySlides" src="https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/465062790_983083987193540_3845344369617446213_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2xmlj-Ake4cQ7kNvgHUbH8T&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=AOchutM9hiP6t46qFGbohGd&oh=00_AYACvNJguKLAVzdqsJQk0W2p_nn5mHgaaosXr9GNs6Q2xA&oe=67381E46">
+            <img class="mySlides" src="https://scontent-hel3-1.xx.fbcdn.net/v/t39.30808-6/464623559_982143367287602_1489475410453356936_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XfLTLXzZhEwQ7kNvgGtD1wF&_nc_zt=23&_nc_ht=scontent-hel3-1.xx&_nc_gid=AURl_SuCMa80YMtM_xOMYJO&oh=00_AYBpFFI5o9gr_6jywuJVEN8T2r497xISD1vc0_4sb5Twsw&oe=67382612">
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
     </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
 
-    
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length} ;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex-1].style.display = "block";
+        }
+    </script>
     <footer>
-        <p>Facebook</p>
+        <div>
+            <a href="https://www.facebook.com/ihasteselts/?ref=embed_page" target="_blank">
+                <img src="https://raw.githubusercontent.com/jaxhend/ihaste_selts/refs/heads/Kevin/fb.png" class="facebook" alt="Description of Image" style="width: 50px; height: 60;">
+            </a>            
+            <a href="https://www.instagram.com/ihasteselts/" target="_blank">
+                <img src="https://raw.githubusercontent.com/jaxhend/ihaste_selts/refs/heads/Kevin/ig.png" alt="Description of Image" style="width: 100px; height: 60;">
+            </a>            
+        </div> 
     </footer>
     
 </body>
