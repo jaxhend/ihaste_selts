@@ -62,11 +62,11 @@ footer p{
 @media (max-width: 768px) {
     .menüü {
         flex-direction: column;
-        margin-left: 10px; /* Adjust as needed for better centering */
-        font-size: 25px; /* Optional: reduce font size for smaller screens */
+        margin-left: 10px;
+        font-size: 25px;
     }
 
     .menüü a {
-        margin: 10px 10px; /* Add space between links */
+        margin: 10px 10px;
     }
 }
