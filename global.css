@@ -1,16 +1,16 @@
 html,
 body {
-    height: 100%; 
+    height: 100%;
     margin: 0;
-    background-color: rgba(190, 190, 115, 0.47); 
+    background-color: rgba(190, 190, 115, 0.47);
 }
 
 header {
-    display: flex;                
-    justify-content: space-between; 
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 15%;        
+    height: 15%;
 }
 
 h1 {
@@ -25,11 +25,11 @@ h1 {
 }
 
 .menüü {
-    display: flex;          
-    flex-direction: row;   
-    font-size: 35px;           
-    margin-left: 20px;         
-    color: rgb(0, 0, 0);      
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
 }
 
 .menüü a {
@@ -37,24 +37,23 @@ h1 {
     color: rgb(0, 0, 0)
 }
 
-.menüü a:hover{
+.menüü a:hover {
     color: rgb(172, 186, 109);
 }
 
-.keskmine{
+.keskmine {
     width: 100%;
     height: 80%;
     background-color: rgb(172, 186, 109);
 }
 
-footer{
+footer {
     width: 100%;
     height: 5%;
     background-color: white;
-    color: white;
 }
 
-footer p{
+footer p {
     background-color: white;
     color: red;
     margin: 0px;
@@ -63,11 +62,14 @@ footer p{
 @media (max-width: 768px) {
     .menüü {
         flex-direction: column;
-        margin-left: 10; /* Adjust as needed for better centering */
-        font-size: 25px; /* Optional: reduce font size for smaller screens */
+        margin-left: 10;
+        /* Adjust as needed for better centering */
+        font-size: 25px;
+        /* Optional: reduce font size for smaller screens */
     }
 
     .menüü a {
-        margin: 10px 10px; /* Add space between links */
+        margin: 10px 10px;
+        /* Add space between links */
     }
 }
