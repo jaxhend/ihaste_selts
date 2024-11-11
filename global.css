@@ -62,7 +62,7 @@ footer p {
 @media (max-width: 768px) {
     .menüü {
         flex-direction: column;
-        margin-left: 10;
+        margin-left: 10px;
         font-size: 25px;
     }
 
