@@ -11,19 +11,44 @@ footer{
     margin-bottom: 7px;
 }
 
-.mingi_tekst{
-    flex: 1;
-    font-size: 40px;
-    padding-top: 30px;
-    padding-left: 20px;
+.mingi_tekst {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Space between items */
+    background-color: rgb(220, 223, 138); /* Yellowish background */
+    padding: 20px; /* Space inside the yellow box */
+    border-radius: 10px; /* Optional rounded corners */
+    max-width: 800px; /* Prevent stretching */
+    margin: 0 auto; /* Center the content */
+}
+
+.item {
+    display: flex; /* Align image and text horizontally */
+    align-items: center; /* Center text vertically with the image */
+    gap: 20px; /* Space between image and text */
+}
+
+.item img {
+    flex: 0 0 auto; /* Prevent the image from resizing */
+}
+
+.item p {
+    flex: 1; /* Allow the text to grow and occupy space */
+    margin: 0; /* Remove default margin */
+    font-size: 18px; /* Adjust text size */
+    color: #333; /* Text color */
 }
 
 .galerii{
     flex: 0 0 auto;
     margin-left: auto;
     text-align: center;
+    margin: 20px;
     padding-right: 100px;
     padding-top: 20px;
+    padding: 20px; /* Add spacing inside the gallery */
+    background-color: rgb(220, 223, 138); /* New background color */
+    border-radius: 10px; /* Optional: Rounded corners for aesthetics */
 }
 
 
