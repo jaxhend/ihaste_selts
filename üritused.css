@@ -12,15 +12,39 @@ footer{
 }
 
 .mingi_tekst{
+    flex: 1;
     font-size: 40px;
     padding-top: 30px;
     padding-left: 20px;
 }
 
+
+.galerii{
+    flex: 0 0 auto;
+    margin-left: auto;
+    text-align: center;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+
 .mySlides{
-    width: 400px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 700px;
+    height: 400px;
+}
+
+.w3-button{
+    background-color: rgb(101, 117, 29);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+p{
+    font-size: 30px;
 }
