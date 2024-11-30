@@ -1,10 +1,10 @@
-
 footer{
     display: flex;
     justify-content: center; 
     gap: 300px; 
     align-items: center; 
     padding: 10px;
+    background-color: rgb(226, 226, 211);
 }
 
 .facebook{
@@ -13,13 +13,15 @@ footer{
 
 .mingi_tekst {
     display: flex;
+    text-align: center;
     flex-direction: column; /* Stack items vertically */
     gap: 20px; /* Space between items */
-    background-color: rgb(220, 223, 138); /* Yellowish background */
+    background-color: rgb(194, 182, 123); /* Yellowish background */
     padding: 20px; /* Space inside the yellow box */
     border-radius: 10px; /* Optional rounded corners */
     max-width: 800px; /* Prevent stretching */
     margin: 0 auto; /* Center the content */
+    padding: 20px;
 }
 
 .item {
@@ -45,9 +47,8 @@ footer{
     text-align: center;
     margin: 20px;
     padding-right: 100px;
-    padding-top: 20px;
     padding: 20px; /* Add spacing inside the gallery */
-    background-color: rgb(220, 223, 138); /* New background color */
+    background-color: rgb(194, 182, 123); /* New background color */
     border-radius: 10px; /* Optional: Rounded corners for aesthetics */
 }
 
@@ -71,4 +72,12 @@ footer{
 
 p{
     font-size: 30px;
+}
+
+.keskmine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 17px;
 }
