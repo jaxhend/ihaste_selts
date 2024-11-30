@@ -1,11 +1,13 @@
-html,
+
 body {
     font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     margin: 0;
-    background: linear-gradient(45deg, rgba(208, 196, 140, 0.8) 0%, rgba(226, 227, 199, 0.8) 40%);
+    background: linear-gradient(
+        45deg, 
+        rgba(208, 196, 140, 0.8) 0%, 
+        rgba(226, 227, 199, 0.8) 40%);
 }
 
 /* Siin on päise/menüüriba stiil */
@@ -112,7 +114,7 @@ footer {
 }
 
 footer img {
-    height: 100%;
+    width: 50px;
 }
 
 footer p {
@@ -133,7 +135,7 @@ footer p {
     width: 100%;
 }
 
-
+/* Väikeste seadmete jaoks eraldi CSS */
 
 @media (max-width: 768px) {
     header {
