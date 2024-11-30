@@ -1,1 +1,104 @@
+.kast {
+    background-color: #C2B67B;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.kast:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.6); /* Adds a stronger shadow on hover */
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 25px;
+}
+
+a {
+    color: black
+}
+
+a:hover {
+    transition: all 0.3s ease;
+    color: rgba(226, 227, 199, 0.8); /* Change color when hovering */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+
+.kaart {
+    background-color: #C2B67B;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+iframe {
+    width: 100%;
+    padding: 0px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+.ülemine {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.alumine {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+button {
+    width: 50px;
+    display: inline-block;
+    padding: 10px 20px;  
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;      /* Ensure text inside button is centered */
+}
+
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+
+.lingid {
+    display: flex;
+    flex-direction: column;  /* Stacks the buttons vertically */
+    align-items: center;     /* Centers the buttons horizontally */
+}
+
+.lingid button {
+    width: auto;  /* Makes the buttons' width fit the content */
+    margin-bottom: 10px;  /* Adds space between buttons */
+}
+
+.tutvustus p {
+    font-size: 20px;
+}
