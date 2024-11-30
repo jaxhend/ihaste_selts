@@ -1,61 +1,55 @@
-footer{
+.üritused {
     display: flex;
-    justify-content: center; 
-    gap: 300px; 
-    align-items: center; 
-    padding: 10px;
-    background-color: rgb(226, 226, 211);
-}
-
-.facebook{
-    margin-bottom: 7px;
-}
-
-.mingi_tekst {
-    display: flex;
+    flex: 1;
     text-align: center;
     flex-direction: column; /* Stack items vertically */
     gap: 20px; /* Space between items */
     background-color: rgb(194, 182, 123); /* Yellowish background */
     padding: 20px; /* Space inside the yellow box */
-    border-radius: 10px; /* Optional rounded corners */
+    border-radius: 4px; /* Optional rounded corners */
     max-width: 800px; /* Prevent stretching */
-    margin: 0 auto; /* Center the content */
-    padding: 20px;
-}
-
-.item {
-    display: flex; /* Align image and text horizontally */
-    align-items: center; /* Center text vertically with the image */
-    gap: 20px; /* Space between image and text */
-}
-
-.item img {
-    flex: 0 0 auto; /* Prevent the image from resizing */
-}
-
-.item p {
-    flex: 1; /* Allow the text to grow and occupy space */
-    margin: 0; /* Remove default margin */
-    font-size: 18px; /* Adjust text size */
-    color: #333; /* Text color */
+    margin: 20px; /* Center the content */
 }
 
 .galerii{
-    flex: 0 0 auto;
-    margin-left: auto;
+    flex: 1;
+    margin-left: 0;
     text-align: center;
     margin: 20px;
-    padding-right: 100px;
+    padding-right:100px;
     padding: 20px; /* Add spacing inside the gallery */
     background-color: rgb(194, 182, 123); /* New background color */
-    border-radius: 10px; /* Optional: Rounded corners for aesthetics */
+    max-width: 400px;
+    border-radius: 4px; /* Optional: Rounded corners for aesthetics */
+}
+
+.keskmine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* Equal spacing between children */
+    align-items: flex-start; /* Align children at the top */
+}
+
+.üritus {
+    display: flex; /* Align image and text horizontally */
+    align-items: center; /* Center text vertically with the image */
+    gap: 10px; /* Space between image and text */
+}
+
+.üritus img {
+    flex: 0 0 auto; /* Prevent the image from resizing */
+}
+
+.üritus p {
+    flex: 1; /* Allow the text to grow and occupy space */
+    margin: 0; /* Remove default margin */
+    font-size: 18px; /* Adjust text size */
 }
 
 
 .mySlides{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
 }
 
 .w3-button{
@@ -71,13 +65,22 @@ footer{
 }
 
 p{
+    font-size: 20px;
+}
+
+h3{
     font-size: 30px;
 }
 
-.keskmine{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-right: 17px;
+.kast {
+    background-color: #C2B67B;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kast:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.6);
 }
