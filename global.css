@@ -10,8 +10,8 @@ body {
         rgba(226, 227, 199, 0.8) 40%);
 }
 
-/* Siin on päise/menüüriba stiil */
 
+/* Siin on päise/menüüriba stiil */
 header {
     position: relative;
     display: flex;
@@ -62,8 +62,8 @@ h1 {
     border-radius: 10px;
 }
 
-/* Siin on bänneri stiil */
 
+/* Siin on bänneri stiil */
 .bänner-kast {
     display: flex;
     justify-content: center;
@@ -100,9 +100,8 @@ h1 {
     text-align: center;
 }
 
+
 /* Siin on jaluse stiil */
-
-
 footer {
     position: relative;
     display: flex;
@@ -135,8 +134,23 @@ footer p {
     width: 100%;
 }
 
-/* Väikeste seadmete jaoks eraldi CSS */
 
+/* Sisu stiil */
+.kast {
+    background-color: #C2B67B;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kast:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+/* Mobiilivaade */
 @media (max-width: 768px) {
     header {
         height: 120px;
