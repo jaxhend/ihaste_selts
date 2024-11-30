@@ -2,13 +2,13 @@
     display: flex;
     flex: 1;
     text-align: center;
-    flex-direction: column; /* Stack items vertically */
-    gap: 20px; /* Space between items */
-    background-color: rgb(194, 182, 123); /* Yellowish background */
-    padding: 20px; /* Space inside the yellow box */
-    border-radius: 4px; /* Optional rounded corners */
-    max-width: 800px; /* Prevent stretching */
-    margin: 20px; /* Center the content */
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(194, 182, 123);
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 800px;
+    margin: 20px;
 }
 
 .galerii{
@@ -17,33 +17,31 @@
     text-align: center;
     margin: 20px;
     padding-right:100px;
-    padding: 20px; /* Add spacing inside the gallery */
-    background-color: rgb(194, 182, 123); /* New background color */
+    padding: 20px;
+    background-color: rgb(194, 182, 123);
     max-width: 400px;
-    border-radius: 4px; /* Optional: Rounded corners for aesthetics */
-}
+    border-radius: 4px;
 
 .keskmine {
     display: flex;
     flex-direction: row;
-    justify-content: space-around; /* Equal spacing between children */
-    align-items: flex-start; /* Align children at the top */
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 .üritus {
-    display: flex; /* Align image and text horizontally */
-    align-items: center; /* Center text vertically with the image */
-    gap: 10px; /* Space between image and text */
-}
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
 .üritus img {
-    flex: 0 0 auto; /* Prevent the image from resizing */
+    flex: 0 0 auto;
 }
 
 .üritus p {
-    flex: 1; /* Allow the text to grow and occupy space */
-    margin: 0; /* Remove default margin */
-    font-size: 18px; /* Adjust text size */
+    flex: 1;
+    margin: 0;
+    font-size: 18px;
 }
 
 
