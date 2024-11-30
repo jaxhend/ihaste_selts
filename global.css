@@ -4,7 +4,6 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-
     height: 100%;
     margin: 0;
     background: linear-gradient(45deg, rgba(208, 196, 140, 0.8) 0%, rgba(226, 227, 199, 0.8) 40%);
@@ -31,18 +30,18 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
-    font-size: 50px;
+    font-size: clamp(30px, 5vw, 50px);
     margin: 0px;
 }
 
 .logo {
-    width: 130px;
+    width: clamp(90px, 15vw, 130px);
     height: auto;
     margin-left: 45px;
 }
 
 .menüü {
-    font-size: 30px;
+    font-size: clamp(20px, 3vw, 30px);
     margin: 0px;
     color: rgb(0, 0, 0);
 }
@@ -98,28 +97,32 @@ h1 {
 
 
 @media (max-width: 768px) {
-    h1 {
-        position: static;
-        transform: none;
-        top: auto;
-        left: auto;
-        text-align: center;
-        font-size: 30px;
+    header {
+        height: 120px;
     }
-    .menüü {
-        margin-left: 10px;
-        font-size: 20px;
-    }
-    .menüü a {
-        margin: 10px 10px;
-    }
+    
     .logo {
-        width: 120px;
         margin-left: 10px;
     }
+    
+    .menüü {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .menüü a {
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
     h2 {
         font-size: 30px;
     }
+
     .banner-container {
         height: 150px;
         border-bottom-left-radius: 5px;
