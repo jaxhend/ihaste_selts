@@ -7,16 +7,16 @@
     background-color: rgb(194, 182, 123);
     padding: 20px;
     border-radius: 4px;
-    max-width: 800px;
+    width: 1200px;
     margin: 20px;
 }
 
 .galerii{
     flex: 1;
-    margin-left: 0;
     text-align: center;
-    margin: 20px;
-    padding-right:100px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     padding: 20px;
     background-color: rgb(194, 182, 123);
     border-radius: 4px;
