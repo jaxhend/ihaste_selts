@@ -8,7 +8,7 @@ function plusDivs(n) {
 function showDivs(n) {//funktsioon peidab kõik ülejäänud pildid ja kontrollib, et indeksid ei läheks piiridest välja
     var i;
     var x = document.getElementsByClassName("mySlides");
-    if (n > x.length) {slideIndex = 1}//kui indeks läheb suuremaks kui on pilte, pannakse muutuja 1-ks ehk kuvatake esimene pilt
+    if (n > x.length) {slideIndex = 1}//kui indeks läheb suuremaks kui piltide arv, pannakse muutuja 1-ks ehk kuvatake esimene pilt
     if (n < 1) {slideIndex = x.length} ;// kui indeks läheb negatiivseks pannakse muutuja väärtuseks piltide arv
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
