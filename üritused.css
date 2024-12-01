@@ -21,6 +21,7 @@
     background-color: rgb(194, 182, 123);
     max-width: 400px;
     border-radius: 4px;
+}
 
 .keskmine {
     display: flex;
@@ -33,6 +34,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
 
 .üritus img {
     flex: 0 0 auto;
