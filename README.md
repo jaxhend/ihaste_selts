@@ -1,4 +1,4 @@
-# Ihaste seltsi veebilehe vikipeedia
+# Ihaste seltsi veebileht
 
 ### Tutvustus
 Veebilehe avaleht tutvustab Ihaste seltsi ja Ihaste linnaosa, pakkudes külastajatele olulist infot kogukonna kohta. Blogi vahelehel on võimalik tutvuda Facebooki postitustega, mis hoiavad külastajaid kursis uudiste ja arengutega. Ürituste vahelehel on kajastatud nii tulevased sündmused kui ka ülevaated juba toimunud üritustest.
